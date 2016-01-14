@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #222;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    text-rendering: optimizelegibility;
+}
+
+main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.sectiontitle {
+    border-left: 4px solid #186DEE;
+    background: transparent url("http://ormatim.com/img/dots.gif") repeat-x scroll center center;
+    margin: 5px 0px 25px;
+    min-height: 20px;
+}
+h1 {
+    font-size: 23px;
+    background: #FFF none repeat scroll 0% 0%;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1.1;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+h2 {
+    line-height: 1.1;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article {
+    width: 48%;
+    padding: 10px;
+    float: left;
+}
+
+article img {
+    float: left;
+    margin-right: 10px;
+}
